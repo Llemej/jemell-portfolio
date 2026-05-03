@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-01-13",
+    "title": "Internship Kick-off",
+    "description": "Onboarded with the development team, set up local environments, and reviewed the existing codebase.",
+    "icon": "🚀"
+  },
+  {
+    "date": "2026-02-01",
+    "title": "API Research Phase",
+    "description": "Deep-dive into API gateway architectures — benchmarked Kong vs custom Express middleware.",
+    "icon": "🔬"
+  },
+  {
+    "date": "2026-02-20",
+    "title": "Dashboard Delivery",
+    "description": "Shipped the responsive analytics dashboard with dark mode and accessible data tables.",
+    "icon": "📊"
+  },
+  {
+    "date": "2026-03-15",
+    "title": "SEO Audit Complete",
+    "description": "Improved client Lighthouse score from 52 → 94 through Core Web Vitals optimisation.",
+    "icon": "🔍"
+  },
+  {
+    "date": "2026-03-28",
+    "title": "Component Library v1",
+    "description": "Released the Lego UI atomic design system with Storybook documentation.",
+    "icon": "🧩"
+  },
+  {
+    "date": "2026-04-10",
+    "title": "CI/CD Pipeline",
+    "description": "Automated the full deployment workflow with GitHub Actions and Vercel preview deploys.",
+    "icon": "⚙️"
+  },
+  {
+    "date": "2026-04-30",
+    "title": "QuickDraft Extension",
+    "description": "Launched the Chrome extension for automated weekly report generation.",
+    "icon": "✨"
+  }
+]
