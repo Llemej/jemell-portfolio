@@ -476,7 +476,7 @@ a {
 
 /* ✅ No width/height here — controlled by <Image> props */
 .hero__image {
-  border-radius: 50%;
+  border-radius: var(--radius-lg);
   object-fit: cover;
   border: 3px solid rgba(108, 92, 231, 0.5);
   box-shadow: 0 0 48px var(--accent-glow), 0 0 80px rgba(108, 92, 231, 0.1);
@@ -534,6 +534,24 @@ a {
 
 .project-card:hover .project-card__accent {
   height: 4px;
+}
+
+.project-card__image-container {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.project-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s var(--transition);
+}
+
+.project-card:hover .project-card__image {
+  transform: scale(1.05);
 }
 
 .project-card__body {
@@ -863,7 +881,7 @@ a {
 .gallery__grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .gallery__empty {
@@ -893,7 +911,7 @@ a {
 .featured-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* ============================================================

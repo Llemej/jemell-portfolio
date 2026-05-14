@@ -10,6 +10,7 @@ export type ProjectCategory =
   | "Research"
   | "UI/UX"
   | "DevOps"
+  | "Mobile"
   | "Full-Stack";
 
 /** A single project / internship activity */
