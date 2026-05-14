@@ -1,66 +1,42 @@
 [
   {
-    "slug": "quickdraft-chrome-extension",
-    "title": "QuickDraft — Chrome Extension",
-    "description": "A Chrome extension that auto-generates weekly internship reports by pulling commit data from GitHub, supporting custom DOCX templates, daily reminders, and multi-school formatting.",
-    "techStack": ["JavaScript", "Chrome APIs", "HTML/CSS", "PizZip", "Docxtemplater"],
+    "slug": "pandanchain",
+    "title": "PANDANCHAIN",
+    "description": "A decentralized tracking or blockchain-based system built with Node.js and MongoDB for the Pandan region.",
+    "techStack": ["Node.js", "MongoDB", "Next.js", "React"],
+    "completionDate": "2026-05-01",
+    "category": "Full-Stack",
+    "featured": true,
+    "image": "/images/projects/pandanchain.webp"
+  },
+  {
+    "slug": "ginoong-mapandan",
+    "title": "GINOONG MAPANDAN",
+    "description": "A web platform for the Ginoong Mapandan event, featuring real-time data management via Supabase.",
+    "techStack": ["Next.js", "Node.js", "Supabase"],
+    "completionDate": "2026-04-15",
+    "category": "Frontend",
+    "featured": true,
+    "image": "/images/projects/ginoong-mapandan.webp"
+  },
+  {
+    "slug": "pandanfest",
+    "title": "PANDANFEST",
+    "description": "A mobile application developed using Flutter for the annual Pandan Festival celebrations.",
+    "techStack": ["Flutter"],
+    "completionDate": "2026-03-20",
+    "category": "Mobile",
+    "featured": true,
+    "image": "/images/projects/pandanfest.webp"
+  },
+  {
+    "slug": "quickdraft",
+    "title": "QUICKDRAFT",
+    "description": "An automated drafting and report generation tool built with Node.js and Next.js.",
+    "techStack": ["Node.js", "Next.js"],
     "completionDate": "2026-04-30",
     "category": "Full-Stack",
     "featured": true,
-    "repoUrl": "https://github.com/jemell/quickdraft",
     "image": "/images/projects/quickdraft.webp"
-  },
-  {
-    "slug": "seo-audit-portal",
-    "title": "SEO Audit Portal",
-    "description": "Conducted a comprehensive SEO audit for a local business site — improved Lighthouse scores from 52 to 94 by optimising Core Web Vitals, meta tags, and structured data.",
-    "techStack": ["Lighthouse", "Google Search Console", "Schema.org", "HTML"],
-    "completionDate": "2026-03-15",
-    "category": "SEO Audit",
-    "featured": true,
-    "image": "/images/projects/seo-audit.webp"
-  },
-  {
-    "slug": "responsive-dashboard-ui",
-    "title": "Responsive Analytics Dashboard",
-    "description": "Designed and implemented a fully responsive analytics dashboard with dark mode, real-time chart rendering, and accessible data tables.",
-    "techStack": ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
-    "completionDate": "2026-02-20",
-    "category": "Frontend",
-    "featured": true,
-    "repoUrl": "https://github.com/jemell/analytics-dashboard",
-    "image": "/images/projects/dashboard.webp"
-  },
-  {
-    "slug": "api-gateway-research",
-    "title": "API Gateway Architecture Research",
-    "description": "Research paper exploring microservice API gateway patterns — compared Kong, AWS API Gateway, and custom Express middleware solutions for latency and throughput.",
-    "techStack": ["Node.js", "Express", "Docker", "Postman"],
-    "completionDate": "2026-02-01",
-    "category": "Research",
-    "featured": false,
-    "image": "/images/projects/api-research.webp"
-  },
-  {
-    "slug": "component-library",
-    "title": "Lego UI Component Library",
-    "description": "Built an atomic design system with reusable Buttons, Badges, Cards, and Modals — documented with Storybook and fully accessible (WCAG 2.1 AA).",
-    "techStack": ["React", "TypeScript", "Storybook", "CSS Modules"],
-    "completionDate": "2026-03-28",
-    "category": "UI/UX",
-    "featured": false,
-    "repoUrl": "https://github.com/jemell/lego-ui",
-    "image": "/images/projects/component-lib.webp"
-  },
-  {
-    "slug": "ci-cd-pipeline",
-    "title": "CI/CD Pipeline Setup",
-    "description": "Configured a GitHub Actions CI/CD pipeline with automated linting, testing, preview deployments on Vercel, and Slack notifications on failure.",
-    "techStack": ["GitHub Actions", "Docker", "Vercel CLI", "Bash"],
-    "completionDate": "2026-04-10",
-    "category": "DevOps",
-    "featured": false,
-    "repoUrl": "https://github.com/jemell/ci-cd-pipeline",
-    "image": "/images/projects/cicd.webp"
   }
 ]
