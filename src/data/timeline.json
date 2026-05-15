@@ -1,44 +1,56 @@
 [
   {
-    "date": "2026-01-13",
-    "title": "Internship Kick-off",
-    "description": "Onboarded with the development team, set up local environments, and reviewed the existing codebase.",
+    "date": "2026-02-09",
+    "title": "Orientation & Pandanchain Setup",
+    "description": "Completed onboarding, started Git workflows, and began integrating Sui wallet for Pandanchain.",
     "icon": "🚀"
   },
   {
-    "date": "2026-02-01",
-    "title": "API Research Phase",
-    "description": "Deep-dive into API gateway architectures — benchmarked Kong vs custom Express middleware.",
-    "icon": "🔬"
+    "date": "2026-02-19",
+    "title": "AI Chatbot & RAG Development",
+    "description": "Implemented Retrieval-Augmented Generation (RAG) using Main and Sub Agent architectures.",
+    "icon": "🤖"
   },
   {
-    "date": "2026-02-20",
-    "title": "Dashboard Delivery",
-    "description": "Shipped the responsive analytics dashboard with dark mode and accessible data tables.",
+    "date": "2026-02-25",
+    "title": "Ginoong Mapandan Dashboards",
+    "description": "Merged the Admin and Judges dashboards for the Ginoong Mapandan event to create a centralized console.",
     "icon": "📊"
   },
   {
-    "date": "2026-03-15",
-    "title": "SEO Audit Complete",
-    "description": "Improved client Lighthouse score from 52 → 94 through Core Web Vitals optimisation.",
+    "date": "2026-03-23",
+    "title": "QA Testing & Data Validation",
+    "description": "Conducted rigorous QA testing and data segmentation across PromptGraph and Team Sillag projects.",
     "icon": "🔍"
   },
   {
-    "date": "2026-03-28",
-    "title": "Component Library v1",
-    "description": "Released the Lego UI atomic design system with Storybook documentation.",
-    "icon": "🧩"
+    "date": "2026-04-10",
+    "title": "QuickDraft Conception",
+    "description": "Identified a friction point and kicked off QuickDraft with UI design and GitHub Authentication.",
+    "icon": "💡"
   },
   {
-    "date": "2026-04-10",
-    "title": "CI/CD Pipeline",
-    "description": "Automated the full deployment workflow with GitHub Actions and Vercel preview deploys.",
+    "date": "2026-04-16",
+    "title": "QuickDraft Modules Unified",
+    "description": "Successfully merged AI support, theming, and automated commit summaries into QuickDraft.",
     "icon": "⚙️"
   },
   {
-    "date": "2026-04-30",
-    "title": "QuickDraft Extension",
-    "description": "Launched the Chrome extension for automated weekly report generation.",
+    "date": "2026-04-21",
+    "title": "Custom Template Engine",
+    "description": "Built a flexible .docx template engine with dynamic tags and completed thorough bug testing.",
+    "icon": "📄"
+  },
+  {
+    "date": "2026-05-02",
+    "title": "Final Polishing & Delivery",
+    "description": "Finalized UI polishing and successfully implemented image imports across all dynamic templates.",
     "icon": "✨"
+  },
+  {
+    "date": "2026-05-09",
+    "title": "Professional Portfolio",
+    "description": "Designed, developed, and deployed a comprehensive Next.js professional portfolio to showcase internship works.",
+    "icon": "🌐"
   }
 ]

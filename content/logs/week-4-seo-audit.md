@@ -1,33 +1,33 @@
 ---
-title: "Week 4 — SEO Audit & Core Web Vitals"
-date: "2026-02-07"
-excerpt: "Performed a full SEO audit on a client site — boosted Lighthouse score from 52 to 94."
-tags: ["seo", "lighthouse", "performance", "core-web-vitals"]
+title: "Week 4 — Ginoong Mapandan & PandanFest Initialization"
+date: "2026-03-06"
+excerpt: "Completed the Ginoong Mapandan 2026 system and began developing the UI for the PandanFest Admin and Judges dashboards."
+tags: ["ginoong-mapandan", "pandanfest", "bug-fixing", "ui-ux"]
 week: 4
 ---
 
 ## Overview
 
-Led the SEO optimisation sprint for a local business client. The goal was to improve organic search visibility and pass all Core Web Vitals thresholds.
+Week 4 involved finalizing the features and fixing bugs for the Ginoong Mapandan 2026 system, before smoothly transitioning into the initial UI development for our next project, PandanFest.
 
-### Key Activities
+### Daily Log
 
-- **Baseline Audit** — Ran Lighthouse, PageSpeed Insights, and Screaming Frog to identify critical issues.
-- **Image Optimisation** — Converted all images to WebP, added `width`/`height` attributes, and implemented lazy loading.
-- **Meta Tag Overhaul** — Wrote unique title tags and meta descriptions for 23 pages; added Open Graph and Twitter Card markup.
-- **Structured Data** — Implemented JSON-LD schemas for `LocalBusiness`, `FAQPage`, and `BreadcrumbList`.
+#### March 2
+- **Bug Fixing** — Continued fixing bugs and revising components of the Ginoong Mapandan system.
 
-### Results
+#### March 3
+- **System Improvement** — Improved the Scoring functionality of the Judges Dashboard for Ginoong Mapandan.
 
-| Metric           | Before | After |
-|------------------|--------|-------|
-| Performance      | 52     | 94    |
-| Accessibility    | 68     | 98    |
-| Best Practices   | 71     | 100   |
-| SEO              | 61     | 100   |
-| LCP              | 4.2s   | 1.1s  |
-| CLS              | 0.32   | 0.01  |
+#### March 4
+- **Project Completion** — Completed all features for the Ginoong Mapandan 2026 system.
+- **Meetings** — Attended the Ginoong Mapandan event meeting, participated in discussions, and was officially assigned to help develop the PandanFest system for the next project.
+
+#### March 5
+- **Research & Development** — Researched criteria for judging and successfully finished the UI components of the PandanFest Admin's Dashboard and Judges Screen.
+
+#### March 6
+- **Mobile Troubleshooting** — Fixed an ongoing issue with the AI Chatbot on the PandanChain Mobile app.
 
 ### Takeaways
 
-> SEO is not magic — it's systematic engineering. Every point gained came from measurable, repeatable optimisations.
+> Successfully transitioning from the final stages of one project (Ginoong Mapandan) into the foundational planning of another (PandanFest) requires great time management and adaptability.
