@@ -1,48 +1,29 @@
 ---
-title: "Week 3 — Building the Analytics Dashboard"
-date: "2026-01-31"
-excerpt: "Designed and coded a responsive analytics dashboard with Chart.js, dark mode, and accessible tables."
-tags: ["react", "typescript", "tailwind", "chart.js", "frontend"]
+title: "Week 3 — AI Chatbot Integration & Ginoong Mapandan Dashboards"
+date: "2026-02-26"
+excerpt: "Third week highlights: finalising the AI Chatbot and developing the administrative dashboards for the Ginoong Mapandan event."
+tags: ["ai", "chatbot", "ginoong-mapandan", "dashboard", "integration"]
 week: 3
 ---
 
 ## Overview
 
-Transitioned from research to hands-on frontend development — built the analytics dashboard from Figma mockups to production.
+This week involved finalizing our AI Chatbot cross-platform features and shifting focus to building comprehensive dashboards for the **Ginoong Mapandan 2026** event.
 
-### Key Activities
+### Daily Log
 
-- **Component Architecture** — Broke the dashboard into atomic components: `StatCard`, `ChartPanel`, `DataTable`, and `FilterBar`.
-- **Dark Mode** — Implemented a theme toggle using CSS custom properties and `prefers-color-scheme` media query.
-- **Chart.js Integration** — Rendered line, bar, and doughnut charts with responsive resizing and tooltip customisation.
-- **Accessibility** — Added ARIA labels to all interactive elements; ensured 4.5:1 contrast ratios in both themes.
+#### February 23
+- **Bug Fixing** — Addressed final bugs and polished features on the AI Chatbot.
 
-### Code Snippet
+#### February 24
+- **Integration** — Successfully merged the web and mobile versions of the AI Chatbot into a unified system.
 
-```tsx
-// StatCard atom — displays a single KPI metric
-interface StatCardProps {
-  label: string;
-  value: string | number;
-  trend: "up" | "down" | "flat";
-}
+#### February 25
+- **Dashboard Development** — Started working on the Ginoong Mapandan 2026 platform. Improvised and enhanced the Judges Dashboard to ensure real-time scoring worked seamlessly.
 
-export function StatCard({ label, value, trend }: StatCardProps) {
-  const trendColor = {
-    up: "text-emerald-500",
-    down: "text-red-500",
-    flat: "text-zinc-400",
-  }[trend];
-
-  return (
-    <div className="rounded-2xl bg-white/5 p-6 backdrop-blur">
-      <p className="text-sm text-zinc-400">{label}</p>
-      <p className={`text-3xl font-bold ${trendColor}`}>{value}</p>
-    </div>
-  );
-}
-```
+#### February 26
+- **System Merge** — Merged the Admin Dashboard and Judges Dashboard for Ginoong Mapandan 2026 to create a centralized management console.
 
 ### Takeaways
 
-> Atomic design isn't just a pattern — it's a mindset. Building small, tested units made the entire dashboard composable and easy to iterate on.
+> Seamlessly integrating web and mobile experiences is tough but rewarding. Additionally, building dashboards for real-world events like Ginoong Mapandan underscored the importance of user-friendly interfaces for administrative tasks.

@@ -7,7 +7,7 @@
     "completionDate": "2026-05-01",
     "category": "Full-Stack",
     "featured": true,
-    "image": "/images/projects/pandanchain.webp"
+    "image": "/images/projects/pandanchain.png"
   },
   {
     "slug": "ginoong-mapandan",
@@ -17,7 +17,7 @@
     "completionDate": "2026-04-15",
     "category": "Frontend",
     "featured": true,
-    "image": "/images/projects/ginoong-mapandan.webp"
+    "image": "/images/projects/ginoong-mapandan.jpg"
   },
   {
     "slug": "pandanfest",
@@ -27,7 +27,7 @@
     "completionDate": "2026-03-20",
     "category": "Mobile",
     "featured": true,
-    "image": "/images/projects/pandanfest.webp"
+    "image": "/images/projects/pandanfest.jpg"
   },
   {
     "slug": "quickdraft",

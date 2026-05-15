@@ -1,29 +1,30 @@
 ---
-title: "Week 2 — API Gateway Research"
-date: "2026-01-24"
-excerpt: "Deep-dive into microservice API gateway patterns — compared Kong, AWS API Gateway, and Express middleware."
-tags: ["api", "research", "microservices", "node.js"]
+title: "Week 2 — AI Chatbot & RAG Implementation"
+date: "2026-02-20"
+excerpt: "Second week highlights: attending a coding seminar, researching RAG, and implementing agentic workflows for the AI Chatbot."
+tags: ["ai", "chatbot", "rag", "seminar", "agents"]
 week: 2
 ---
 
 ## Overview
 
-This week was dedicated to researching API gateway architectures to inform the team's migration from a monolithic backend.
+This week, the focus shifted towards artificial intelligence. I attended an insightful coding seminar and then dove deep into building an AI Chatbot using Retrieval-Augmented Generation (RAG) and an agentic architecture.
 
-### Key Activities
+### Daily Log
 
-- **Literature Review** — Read Martin Fowler's *Microservices* guide and the Kong whitepaper on API lifecycle management.
-- **Benchmarking** — Set up Docker containers for Kong and a custom Express proxy; ran Postman load tests at 500 RPS.
-- **Presentation** — Delivered a 15-minute presentation to the team with a comparison matrix and recommendation.
+#### February 16
+- **Seminar** — Attended the Philippine Coding Camp Seminar on campus to learn about industry trends and best practices.
 
-### Findings
+#### February 18
+- **Research** — Conducted research on RAG (Retrieval-Augmented Generation) architectures.
+- **Project Planning** — Received and planned the tasks for the AI Chatbot project.
 
-| Gateway          | Latency (p99) | Throughput  | Ease of Config |
-|------------------|---------------|-------------|----------------|
-| Kong             | 12 ms         | 4,200 RPS   | Medium         |
-| AWS API Gateway  | 18 ms         | 3,800 RPS   | High           |
-| Custom Express   | 8 ms          | 5,100 RPS   | Low            |
+#### February 19
+- **Implementation** — Built and implemented the RAG system using a Main Agent and Sub Agent architecture.
+
+#### February 20
+- **Debugging** — Spent the day fixing bugs in the AI Chatbot RAG implementation.
 
 ### Takeaways
 
-> Custom solutions win on raw performance but lose on observability and plugin ecosystems. For our scale, Kong offered the best balance.
+> Working with Main and Sub Agents for RAG requires careful orchestration, but it significantly improves the accuracy and context-awareness of the chatbot.
