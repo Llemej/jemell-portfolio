@@ -52,5 +52,11 @@
     "title": "Professional Portfolio",
     "description": "Designed, developed, and deployed a comprehensive Next.js professional portfolio to showcase internship works.",
     "icon": "🌐"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "Portfolio Finalization & Documentation",
+    "description": "Completed extensive documentation for OJT projects (Soroban, PandanChain, PandanFest) and finalized the professional portfolio.",
+    "icon": "📚"
   }
 ]
